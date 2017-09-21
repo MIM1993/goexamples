@@ -45,5 +45,5 @@ next:
 		fmt.Printf("%s:%d\n", prefix, outer)
 	}
 
-	fmt.Println("Completed", prefix)
+	fmt.Println("Completed:", prefix)
 }
