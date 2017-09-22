@@ -37,5 +37,7 @@ func main() {
 		return
 	}
 
-	fmt.Printf("%#v", gr)
+	// %+v打印结构体时，会添加字段名Printf("%+v", people)  {Name:zhangsan}
+	// https://studygolang.com/articles/2644
+	fmt.Printf("%+v", gr)
 }
