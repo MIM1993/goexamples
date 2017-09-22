@@ -1,11 +1,12 @@
 // 代码来自https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/09.5.md
-// 测试自定义包
+// 测试第三方包
+// 导入第三方包：go get github.com/fengchunjian/goexamples/package/userdefined/pack1
 // 编译方式：go build main.go
 package main
 
 import (
-	"./pack1"
 	"fmt"
+	"github.com/fengchunjian/goexamples/package/userdefined/pack1"
 )
 
 func main() {
