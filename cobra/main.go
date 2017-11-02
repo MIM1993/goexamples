@@ -1,3 +1,21 @@
+/*
+参考文档：go插件cobra命令用法
+http://blog.csdn.net/qq_27809391/article/details/54089774
+
+编译：go build -o command
+运行：
+./command
+./command -h
+./command --help
+./command node
+./command node -h
+./command node --help
+./command node start
+./command node start -h
+./command node start --help
+./command node start 测试
+*/
+
 package main
 
 import (
